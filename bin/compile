@@ -8,3 +8,6 @@ curl https://swift.org/builds/ubuntu1404/$NAME/$NAME-ubuntu14.04.tar.gz -s -O
 mkdir -p vendor/swift
 tar -C vendor/swift -xvf $NAME-ubuntu14.04.tar.gz
 mv vendor/swift/$NAME-ubuntu14.04/* vendor/swift
+
+rmdir vendor/swift/$NAME-ubuntu14.04
+rm -f $NAME-ubuntu14.04.tar.gz
