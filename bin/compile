@@ -11,3 +11,7 @@ mv vendor/swift/$NAME-ubuntu14.04/* vendor/swift
 
 rmdir vendor/swift/$NAME-ubuntu14.04
 rm -f $NAME-ubuntu14.04.tar.gz
+
+LP_DIR=`cd $(dirname $0); cd ..; pwd`
+mkdir -p .profile.d
+cp -n ${LP_DIR}/.profile.d/* .profile.d/
