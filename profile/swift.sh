@@ -1,0 +1,1 @@
+export PATH=$PATH:/app/vendor/swift/usr/bin
