@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "Swift 2.2"
+exit 0

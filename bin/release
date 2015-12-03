@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+cat <<EOF
+---
+config_vars:
+PATH: $PATH:/app/vendor/swift/usr/bin
+EOF
