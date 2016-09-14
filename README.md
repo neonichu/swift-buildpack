@@ -1,5 +1,7 @@
 # Heroku buildpack for Swift
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 A simple Swift buildpack, uses the official Ubuntu LTS build
 from the [Swift website][1].
 
